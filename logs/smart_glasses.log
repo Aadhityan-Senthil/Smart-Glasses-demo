@@ -1,0 +1,869 @@
+2025-08-12 21:46:29,932 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-08-12 21:46:56,898 - config - INFO - Initializing Smart Glasses Demo System...
+2025-08-12 21:46:56,898 - config - INFO - Configuration validated successfully
+2025-08-12 21:46:56,898 - config - INFO - Video capture handler initialized
+2025-08-12 21:46:57,111 - cv_analyzer - WARNING - Custom model not found at models/oil_leak_detector.pt, using YOLOv8 base model
+2025-08-12 21:47:00,496 - cv_analyzer - INFO - Setting up custom hazard detection rules
+2025-08-12 21:47:00,659 - cv_analyzer - INFO - Model loaded successfully on cuda
+2025-08-12 21:47:00,660 - config - INFO - Computer vision analyzer initialized
+2025-08-12 21:47:00,660 - config - INFO - Telegram handler initialized
+2025-08-12 21:47:00,660 - telegram_handler - INFO - Started Telegram bot polling thread
+2025-08-12 21:47:00,660 - config - INFO - Telegram bot started successfully
+2025-08-12 21:47:00,662 - config - INFO - Web API server started on 0.0.0.0:8000
+2025-08-12 21:47:00,696 - telegram_handler - INFO - Started Telegram bot polling thread
+2025-08-12 21:47:00,697 - web_api - INFO - Smart Glasses Demo API started successfully
+2025-08-12 21:47:02,662 - config - INFO - Running Smart Glasses Demo...
+2025-08-12 21:47:03,887 - video_capture - INFO - Camera initialized successfully - 720p at 30 FPS
+2025-08-12 21:47:03,893 - video_capture - INFO - Starting video recording for 10 seconds...
+2025-08-12 21:47:05,113 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHyiwOimlNQthCDlsP-2wZMr2JKLfTZCh0/getMe "HTTP/1.1 200 OK"
+2025-08-12 21:47:05,113 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHyiwOimlNQthCDlsP-2wZMr2JKLfTZCh0/getMe "HTTP/1.1 200 OK"
+2025-08-12 21:47:05,114 - telegram_handler - INFO - Telegram bot initialized successfully: @My_smartglasses_bot
+2025-08-12 21:47:05,115 - telegram_handler - INFO - Telegram bot initialized successfully: @My_smartglasses_bot
+2025-08-12 21:47:05,115 - telegram_handler - ERROR - Error running bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-12 21:47:05,115 - telegram_handler - ERROR - Error running bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-12 21:47:13,974 - video_capture - INFO - Video recording completed: 102 frames, saved to videos/video_20250812_214703.mp4
+2025-08-12 21:47:13,982 - telegram_handler - ERROR - Failed to send video: Unknown error in HTTP implementation: RuntimeError('Event loop is closed')
+2025-08-12 21:47:13,986 - cv_analyzer - INFO - Starting video analysis: 102 frames at 30 FPS
+2025-08-12 21:47:17,865 - cv_analyzer - INFO - Analysis progress: 98.0%
+2025-08-12 21:47:17,888 - cv_analyzer - INFO - Video analysis completed in 3.91 seconds
+2025-08-12 21:47:18,890 - telegram_handler - ERROR - Failed to send message: Pool timeout: All connections in the connection pool are occupied. Request was *not* sent to Telegram. Consider adjusting the connection pool size or the pool timeout.
+2025-08-12 21:47:19,892 - telegram_handler - ERROR - Failed to send video: Pool timeout: All connections in the connection pool are occupied. Request was *not* sent to Telegram. Consider adjusting the connection pool size or the pool timeout.
+2025-08-12 21:47:40,235 - config - INFO - Received signal 2, shutting down...
+2025-08-12 21:47:40,235 - config - INFO - Shutting down Smart Glasses Demo System...
+2025-08-12 21:47:40,236 - config - ERROR - Error during shutdown: This Application is not running!
+2025-08-12 21:47:40,236 - config - INFO - Shutting down Smart Glasses Demo System...
+2025-08-12 21:47:40,236 - config - ERROR - Error during shutdown: This Application is not running!
+2025-08-12 21:47:40,356 - video_capture - INFO - Camera resources released
+2025-08-12 22:01:40,405 - config - INFO - Initializing Smart Glasses Demo System...
+2025-08-12 22:01:40,405 - config - INFO - Configuration validated successfully
+2025-08-12 22:01:40,405 - config - INFO - Video capture handler initialized
+2025-08-12 22:01:40,536 - cv_analyzer - WARNING - Custom model not found at models/oil_leak_detector.pt, using YOLOv8 base model
+2025-08-12 22:01:40,564 - cv_analyzer - INFO - Setting up custom hazard detection rules
+2025-08-12 22:01:40,713 - cv_analyzer - INFO - Model loaded successfully on cuda
+2025-08-12 22:01:40,713 - config - INFO - Computer vision analyzer initialized
+2025-08-12 22:01:40,713 - config - INFO - Telegram handler initialized
+2025-08-12 22:01:40,714 - telegram_handler - INFO - Started Telegram bot polling thread
+2025-08-12 22:01:40,714 - config - INFO - Telegram bot started successfully
+2025-08-12 22:01:40,715 - config - INFO - Web API server started on 0.0.0.0:8000
+2025-08-12 22:01:40,716 - config - INFO - Starting continuous monitoring mode...
+2025-08-12 22:01:40,716 - config - WARNING - Camera not initialized, attempting to reinitialize...
+2025-08-12 22:01:40,745 - telegram_handler - INFO - Started Telegram bot polling thread
+2025-08-12 22:01:40,745 - web_api - INFO - Smart Glasses Demo API started successfully
+2025-08-12 22:01:41,936 - video_capture - INFO - Camera initialized successfully - 720p at 30 FPS
+2025-08-12 22:01:45,952 - telegram_handler - ERROR - Failed to initialize Telegram bot: Timed out
+2025-08-12 22:01:45,952 - telegram_handler - ERROR - Failed to initialize bot
+2025-08-12 22:01:45,960 - telegram_handler - ERROR - Failed to initialize Telegram bot: Timed out
+2025-08-12 22:01:45,960 - telegram_handler - ERROR - Failed to initialize bot
+2025-08-12 22:04:09,153 - config - INFO - Received signal 2, shutting down...
+2025-08-12 22:04:09,153 - config - INFO - Shutting down Smart Glasses Demo System...
+2025-08-12 22:04:09,154 - config - ERROR - Error during shutdown: This Application is not running!
+2025-08-12 22:04:09,154 - config - INFO - Shutting down Smart Glasses Demo System...
+2025-08-12 22:04:09,154 - config - ERROR - Error during shutdown: This Application is not running!
+2025-08-12 22:04:09,241 - video_capture - INFO - Camera resources released
+2025-08-12 22:08:10,858 - config - INFO - Initializing Smart Glasses Demo System...
+2025-08-12 22:08:10,859 - config - INFO - Configuration validated successfully
+2025-08-12 22:08:10,859 - config - INFO - Video capture handler initialized
+2025-08-12 22:08:10,934 - cv_analyzer - WARNING - Custom model not found at models/oil_leak_detector.pt, using YOLOv8 base model
+2025-08-12 22:08:11,122 - cv_analyzer - INFO - Setting up custom hazard detection rules
+2025-08-12 22:08:11,313 - cv_analyzer - INFO - Model loaded successfully on cuda
+2025-08-12 22:08:11,313 - config - INFO - Computer vision analyzer initialized
+2025-08-12 22:08:11,313 - config - INFO - Telegram handler initialized
+2025-08-12 22:08:11,313 - telegram_handler - INFO - Started Telegram bot polling thread
+2025-08-12 22:08:11,314 - config - INFO - Telegram bot started successfully
+2025-08-12 22:08:11,315 - config - INFO - Web API server started on 0.0.0.0:8000
+2025-08-12 22:08:11,371 - telegram_handler - INFO - Started Telegram bot polling thread
+2025-08-12 22:08:11,372 - web_api - INFO - Smart Glasses Demo API started successfully
+2025-08-12 22:08:12,413 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHyiwOimlNQthCDlsP-2wZMr2JKLfTZCh0/getMe "HTTP/1.1 200 OK"
+2025-08-12 22:08:12,414 - telegram_handler - INFO - Telegram bot initialized successfully: @My_smartglasses_bot
+2025-08-12 22:08:12,414 - telegram_handler - ERROR - Error running bot: Cannot close a running event loop
+Traceback (most recent call last):
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/ext/_application.py", line 1049, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 663, in run_until_complete
+    self._check_running()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 622, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/ext/_application.py", line 1074, in __run
+    loop.run_until_complete(self.shutdown())
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 663, in run_until_complete
+    self._check_running()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 622, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aadhi/smart-glasses-demo/telegram_handler.py", line 307, in _async_run_bot
+    await self.application.run_polling(drop_pending_updates=True, stop_signals=None)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/ext/_application.py", line 839, in run_polling
+    return self.__run(
+           ^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/ext/_application.py", line 1079, in __run
+    loop.close()
+  File "/usr/lib/python3.12/asyncio/unix_events.py", line 68, in close
+    super().close()
+  File "/usr/lib/python3.12/asyncio/selector_events.py", line 101, in close
+    raise RuntimeError("Cannot close a running event loop")
+RuntimeError: Cannot close a running event loop
+2025-08-12 22:08:12,420 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHyiwOimlNQthCDlsP-2wZMr2JKLfTZCh0/getMe "HTTP/1.1 200 OK"
+2025-08-12 22:08:12,421 - telegram_handler - INFO - Telegram bot initialized successfully: @My_smartglasses_bot
+2025-08-12 22:08:12,421 - telegram_handler - INFO - Telegram bot thread exiting
+2025-08-12 22:08:12,421 - telegram_handler - ERROR - Error running bot: Cannot close a running event loop
+Traceback (most recent call last):
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/ext/_application.py", line 1049, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 663, in run_until_complete
+    self._check_running()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 622, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/ext/_application.py", line 1074, in __run
+    loop.run_until_complete(self.shutdown())
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 663, in run_until_complete
+    self._check_running()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 622, in _check_running
+    raise RuntimeError('This event loop is already running')
+RuntimeError: This event loop is already running
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aadhi/smart-glasses-demo/telegram_handler.py", line 307, in _async_run_bot
+    await self.application.run_polling(drop_pending_updates=True, stop_signals=None)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/ext/_application.py", line 839, in run_polling
+    return self.__run(
+           ^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/ext/_application.py", line 1079, in __run
+    loop.close()
+  File "/usr/lib/python3.12/asyncio/unix_events.py", line 68, in close
+    super().close()
+  File "/usr/lib/python3.12/asyncio/selector_events.py", line 101, in close
+    raise RuntimeError("Cannot close a running event loop")
+RuntimeError: Cannot close a running event loop
+2025-08-12 22:08:12,422 - telegram_handler - INFO - Telegram bot thread exiting
+2025-08-12 22:08:13,317 - config - INFO - Running Smart Glasses Demo...
+2025-08-12 22:08:14,536 - video_capture - INFO - Camera initialized successfully - 720p at 30 FPS
+2025-08-12 22:08:14,538 - video_capture - INFO - Starting video recording for 10 seconds...
+2025-08-12 22:08:24,612 - video_capture - INFO - Video recording completed: 102 frames, saved to videos/video_20250812_220814.mp4
+2025-08-12 22:08:24,618 - telegram_handler - ERROR - Failed to send video: Unknown error in HTTP implementation: RuntimeError('Event loop is closed')
+Traceback (most recent call last):
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 304, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/request/_httpxrequest.py", line 273, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 229, in handle_async_request
+    await self._close_connections(closing)
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 345, in _close_connections
+    await connection.aclose()
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/httpcore/_async/connection.py", line 173, in aclose
+    await self._connection.aclose()
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/httpcore/_async/http11.py", line 258, in aclose
+    await self._network_stream.aclose()
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/httpcore/_backends/anyio.py", line 53, in aclose
+    await self._stream.aclose()
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/anyio/streams/tls.py", line 234, in aclose
+    await self.transport_stream.aclose()
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/anyio/_backends/_asyncio.py", line 1314, in aclose
+    self._transport.close()
+  File "/usr/lib/python3.12/asyncio/selector_events.py", line 1211, in close
+    super().close()
+  File "/usr/lib/python3.12/asyncio/selector_events.py", line 875, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 795, in call_soon
+    self._check_closed()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 541, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/aadhi/smart-glasses-demo/telegram_handler.py", line 218, in send_video
+    await self.bot.send_video(chat_id=target_chat_id, video=str(video_path), caption=caption, supports_streaming=True)
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/_bot.py", line 2122, in send_video
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/_bot.py", line 810, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/_bot.py", line 698, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/_bot.py", line 727, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 316, in _request_wrapper
+    raise NetworkError(f"Unknown error in HTTP implementation: {exc!r}") from exc
+telegram.error.NetworkError: Unknown error in HTTP implementation: RuntimeError('Event loop is closed')
+2025-08-12 22:08:24,627 - cv_analyzer - INFO - Starting video analysis: 102 frames at 30 FPS
+2025-08-12 22:08:29,929 - cv_analyzer - INFO - Analysis progress: 98.0%
+2025-08-12 22:08:29,960 - cv_analyzer - INFO - Video analysis completed in 5.33 seconds
+2025-08-12 22:08:30,963 - telegram_handler - ERROR - Failed to send message: Pool timeout: All connections in the connection pool are occupied. Request was *not* sent to Telegram. Consider adjusting the connection pool size or the pool timeout.
+Traceback (most recent call last):
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 232, in handle_async_request
+    connection = await pool_request.wait_for_connection(timeout=timeout)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 35, in wait_for_connection
+    await self._connection_acquired.wait(timeout=timeout)
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/httpcore/_synchronization.py", line 149, in wait
+    with map_exceptions(anyio_exc_map):
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.PoolTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/request/_httpxrequest.py", line 273, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.PoolTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/aadhi/smart-glasses-demo/telegram_handler.py", line 230, in send_message
+    await self.bot.send_message(chat_id=target_chat_id, text=message)
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/_bot.py", line 1100, in send_message
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/_bot.py", line 810, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/_bot.py", line 698, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/_bot.py", line 727, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 304, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/request/_httpxrequest.py", line 283, in do_request
+    raise TimedOut(
+telegram.error.TimedOut: Pool timeout: All connections in the connection pool are occupied. Request was *not* sent to Telegram. Consider adjusting the connection pool size or the pool timeout.
+2025-08-12 22:08:31,967 - telegram_handler - ERROR - Failed to send video: Pool timeout: All connections in the connection pool are occupied. Request was *not* sent to Telegram. Consider adjusting the connection pool size or the pool timeout.
+Traceback (most recent call last):
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 232, in handle_async_request
+    connection = await pool_request.wait_for_connection(timeout=timeout)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/httpcore/_async/connection_pool.py", line 35, in wait_for_connection
+    await self._connection_acquired.wait(timeout=timeout)
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/httpcore/_synchronization.py", line 149, in wait
+    with map_exceptions(anyio_exc_map):
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.PoolTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/request/_httpxrequest.py", line 273, in do_request
+    res = await self._client.request(
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/httpx/_client.py", line 1540, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/httpx/_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/httpx/_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/httpx/_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/httpx/_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "/usr/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.PoolTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/aadhi/smart-glasses-demo/telegram_handler.py", line 218, in send_video
+    await self.bot.send_video(chat_id=target_chat_id, video=str(video_path), caption=caption, supports_streaming=True)
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/_bot.py", line 2122, in send_video
+    return await self._send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/_bot.py", line 810, in _send_message
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/_bot.py", line 698, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/_bot.py", line 727, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 197, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/request/_baserequest.py", line 304, in _request_wrapper
+    code, payload = await self.do_request(
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/request/_httpxrequest.py", line 283, in do_request
+    raise TimedOut(
+telegram.error.TimedOut: Pool timeout: All connections in the connection pool are occupied. Request was *not* sent to Telegram. Consider adjusting the connection pool size or the pool timeout.
+2025-08-12 22:10:04,790 - config - INFO - Received signal 2, shutting down...
+2025-08-12 22:10:04,790 - config - INFO - Shutting down Smart Glasses Demo System...
+2025-08-12 22:10:04,790 - telegram_handler - WARNING - Bot not running or already stopped
+2025-08-12 22:10:04,792 - video_capture - INFO - Camera resources released
+2025-08-12 22:10:04,792 - config - INFO - System shutdown completed
+2025-08-12 22:10:04,792 - config - INFO - Shutting down Smart Glasses Demo System...
+2025-08-12 22:10:04,792 - telegram_handler - WARNING - Bot not running or already stopped
+2025-08-12 22:10:04,792 - video_capture - INFO - Camera resources released
+2025-08-12 22:10:04,792 - config - INFO - System shutdown completed
+2025-08-12 22:10:04,938 - video_capture - INFO - Camera resources released
+2025-08-12 22:16:03,264 - config - INFO - Initializing Smart Glasses Demo System...
+2025-08-12 22:16:03,264 - config - INFO - Configuration validated successfully
+2025-08-12 22:16:03,264 - config - INFO - Video capture handler initialized
+2025-08-12 22:16:03,421 - cv_analyzer - WARNING - Custom model not found at models/oil_leak_detector.pt, using YOLOv8 base model
+2025-08-12 22:16:03,463 - cv_analyzer - INFO - Setting up custom hazard detection rules
+2025-08-12 22:16:03,665 - cv_analyzer - INFO - Model loaded successfully on cuda
+2025-08-12 22:16:03,665 - config - INFO - Computer vision analyzer initialized
+2025-08-12 22:16:03,665 - config - INFO - Telegram handler initialized
+2025-08-12 22:16:03,666 - telegram_handler - INFO - Started Telegram bot polling thread
+2025-08-12 22:16:03,666 - config - INFO - Telegram bot started successfully
+2025-08-12 22:16:03,668 - config - INFO - Web API server started on 0.0.0.0:8000
+2025-08-12 22:16:03,669 - config - INFO - Starting continuous monitoring mode...
+2025-08-12 22:16:03,669 - config - WARNING - Camera not initialized, attempting to reinitialize...
+2025-08-12 22:16:03,721 - telegram_handler - INFO - Started Telegram bot polling thread
+2025-08-12 22:16:03,722 - web_api - INFO - Smart Glasses Demo API started successfully
+2025-08-12 22:16:04,889 - video_capture - INFO - Camera initialized successfully - 720p at 30 FPS
+2025-08-12 22:16:09,460 - telegram_handler - ERROR - Failed to initialize Telegram bot: Timed out
+2025-08-12 22:16:09,460 - telegram_handler - ERROR - Failed to initialize bot
+2025-08-12 22:16:09,682 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/getMe "HTTP/1.1 200 OK"
+2025-08-12 22:16:09,684 - telegram_handler - INFO - Telegram bot initialized successfully: @My_smartglasses_bot
+2025-08-12 22:16:09,684 - telegram_handler - ERROR - Error running bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-12 22:16:36,104 - config - INFO - Received signal 2, shutting down...
+2025-08-12 22:16:36,104 - config - INFO - Shutting down Smart Glasses Demo System...
+2025-08-12 22:16:36,104 - config - ERROR - Error during shutdown: This Application is not running!
+2025-08-12 22:16:36,104 - config - INFO - Shutting down Smart Glasses Demo System...
+2025-08-12 22:16:36,104 - config - ERROR - Error during shutdown: This Application is not running!
+2025-08-12 22:16:36,167 - video_capture - INFO - Camera resources released
+2025-08-12 22:17:01,767 - config - INFO - Initializing Smart Glasses Demo System...
+2025-08-12 22:17:01,767 - config - INFO - Configuration validated successfully
+2025-08-12 22:17:01,767 - config - INFO - Video capture handler initialized
+2025-08-12 22:17:01,835 - cv_analyzer - WARNING - Custom model not found at models/oil_leak_detector.pt, using YOLOv8 base model
+2025-08-12 22:17:01,879 - cv_analyzer - INFO - Setting up custom hazard detection rules
+2025-08-12 22:17:02,083 - cv_analyzer - INFO - Model loaded successfully on cuda
+2025-08-12 22:17:02,083 - config - INFO - Computer vision analyzer initialized
+2025-08-12 22:17:02,083 - config - INFO - Telegram handler initialized
+2025-08-12 22:17:02,084 - telegram_handler - INFO - Started Telegram bot polling thread
+2025-08-12 22:17:02,084 - config - INFO - Telegram bot started successfully
+2025-08-12 22:17:02,086 - config - INFO - Web API server started on 0.0.0.0:8000
+2025-08-12 22:17:02,087 - config - INFO - Starting continuous monitoring mode...
+2025-08-12 22:17:02,088 - config - WARNING - Camera not initialized, attempting to reinitialize...
+2025-08-12 22:17:02,153 - telegram_handler - INFO - Started Telegram bot polling thread
+2025-08-12 22:17:02,154 - web_api - INFO - Smart Glasses Demo API started successfully
+2025-08-12 22:17:03,283 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/getMe "HTTP/1.1 200 OK"
+2025-08-12 22:17:03,283 - telegram_handler - INFO - Telegram bot initialized successfully: @My_smartglasses_bot
+2025-08-12 22:17:03,284 - telegram_handler - ERROR - Error running bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-12 22:17:03,305 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/getMe "HTTP/1.1 200 OK"
+2025-08-12 22:17:03,306 - telegram_handler - INFO - Telegram bot initialized successfully: @My_smartglasses_bot
+2025-08-12 22:17:03,306 - telegram_handler - ERROR - Error running bot: set_wakeup_fd only works in main thread of the main interpreter
+2025-08-12 22:17:03,308 - video_capture - INFO - Camera initialized successfully - 720p at 30 FPS
+2025-08-12 22:20:54,424 - config - INFO - Received signal 2, shutting down...
+2025-08-12 22:20:54,424 - config - INFO - Shutting down Smart Glasses Demo System...
+2025-08-12 22:20:54,425 - config - ERROR - Error during shutdown: This Application is not running!
+2025-08-12 22:20:54,425 - config - INFO - Shutting down Smart Glasses Demo System...
+2025-08-12 22:20:54,425 - config - ERROR - Error during shutdown: This Application is not running!
+2025-08-12 22:20:54,489 - video_capture - INFO - Camera resources released
+2025-08-12 22:23:24,001 - config - INFO - Initializing Smart Glasses Demo System...
+2025-08-12 22:23:24,002 - config - INFO - Configuration validated successfully
+2025-08-12 22:23:24,002 - config - INFO - Video capture handler initialized
+2025-08-12 22:23:24,144 - cv_analyzer - WARNING - Custom model not found at models/oil_leak_detector.pt, using YOLOv8 base model
+2025-08-12 22:23:24,184 - cv_analyzer - INFO - Setting up custom hazard detection rules
+2025-08-12 22:23:24,357 - cv_analyzer - INFO - Model loaded successfully on cuda
+2025-08-12 22:23:24,357 - config - INFO - Computer vision analyzer initialized
+2025-08-12 22:23:24,357 - config - INFO - Telegram handler initialized
+2025-08-12 22:23:24,358 - config - INFO - Web API server started on 0.0.0.0:8000
+2025-08-12 22:23:24,384 - web_api - ERROR - Failed to initialize API: 'TelegramHandler' object has no attribute 'start_bot_polling'
+2025-08-12 22:23:26,359 - config - INFO - Starting continuous monitoring mode...
+2025-08-12 22:23:26,359 - config - WARNING - Camera not initialized, attempting to reinitialize...
+2025-08-12 22:23:27,578 - video_capture - INFO - Camera initialized successfully - 720p at 30 FPS
+2025-08-12 22:24:55,995 - config - INFO - Received signal 2, shutting down...
+2025-08-12 22:24:55,995 - config - INFO - Shutting down Smart Glasses Demo System...
+2025-08-12 22:24:55,998 - video_capture - INFO - Camera resources released
+2025-08-12 22:24:55,998 - config - INFO - System shutdown completed
+2025-08-12 22:24:56,127 - config - INFO - Shutting down Smart Glasses Demo System...
+2025-08-12 22:24:56,127 - video_capture - INFO - Camera resources released
+2025-08-12 22:24:56,127 - config - INFO - System shutdown completed
+2025-08-12 22:25:00,756 - config - INFO - Initializing Smart Glasses Demo System...
+2025-08-12 22:25:00,756 - config - INFO - Configuration validated successfully
+2025-08-12 22:25:00,757 - config - INFO - Video capture handler initialized
+2025-08-12 22:25:00,905 - cv_analyzer - WARNING - Custom model not found at models/oil_leak_detector.pt, using YOLOv8 base model
+2025-08-12 22:25:00,946 - cv_analyzer - INFO - Setting up custom hazard detection rules
+2025-08-12 22:25:01,127 - cv_analyzer - INFO - Model loaded successfully on cuda
+2025-08-12 22:25:01,127 - config - INFO - Computer vision analyzer initialized
+2025-08-12 22:25:01,127 - config - INFO - Telegram handler initialized
+2025-08-12 22:25:01,128 - config - INFO - Web API server started on 0.0.0.0:8000
+2025-08-12 22:25:01,157 - web_api - INFO - Smart Glasses Demo API started successfully
+2025-08-12 22:25:03,129 - config - INFO - Running Smart Glasses Demo...
+2025-08-12 22:25:04,349 - video_capture - INFO - Camera initialized successfully - 720p at 30 FPS
+2025-08-12 22:25:04,351 - video_capture - INFO - Starting video recording for 10 seconds...
+2025-08-12 22:25:14,428 - video_capture - INFO - Video recording completed: 102 frames, saved to videos/video_20250812_222504.mp4
+2025-08-12 22:25:14,428 - telegram_handler - ERROR - Failed to send video: 'NoneType' object has no attribute 'send_video'
+2025-08-12 22:25:14,431 - cv_analyzer - INFO - Starting video analysis: 102 frames at 30 FPS
+2025-08-12 22:25:18,276 - cv_analyzer - INFO - Analysis progress: 98.0%
+2025-08-12 22:25:18,300 - cv_analyzer - INFO - Video analysis completed in 3.87 seconds
+2025-08-12 22:25:18,300 - telegram_handler - ERROR - Failed to send message: 'NoneType' object has no attribute 'send_message'
+2025-08-12 22:25:18,301 - telegram_handler - ERROR - Failed to send video: 'NoneType' object has no attribute 'send_video'
+2025-08-12 22:25:19,034 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/getMe "HTTP/1.1 200 OK"
+2025-08-12 22:25:19,034 - telegram_handler - INFO - Telegram bot initialized successfully: @My_smartglasses_bot
+2025-08-12 22:25:19,035 - telegram_handler - ERROR - Error running bot: Cannot close a running event loop
+2025-08-12 22:25:19,035 - config - INFO - Telegram bot started successfully
+2025-08-12 22:27:09,326 - config - INFO - Shutting down Smart Glasses Demo System...
+2025-08-12 22:27:09,328 - video_capture - INFO - Camera resources released
+2025-08-12 22:27:09,328 - config - INFO - System shutdown completed
+2025-08-12 22:27:09,437 - video_capture - INFO - Camera resources released
+2025-08-12 22:27:31,181 - config - INFO - Initializing Smart Glasses Demo System...
+2025-08-12 22:27:31,182 - config - INFO - Configuration validated successfully
+2025-08-12 22:27:31,182 - config - INFO - Video capture handler initialized
+2025-08-12 22:27:31,408 - cv_analyzer - WARNING - Custom model not found at models/oil_leak_detector.pt, using YOLOv8 base model
+2025-08-12 22:27:31,439 - cv_analyzer - INFO - Setting up custom hazard detection rules
+2025-08-12 22:27:31,581 - cv_analyzer - INFO - Model loaded successfully on cuda
+2025-08-12 22:27:31,582 - config - INFO - Computer vision analyzer initialized
+2025-08-12 22:27:31,582 - config - INFO - Telegram handler initialized
+2025-08-12 22:27:31,583 - config - INFO - Web API server started on 0.0.0.0:8000
+2025-08-12 22:27:31,606 - web_api - INFO - Smart Glasses Demo API started successfully
+2025-08-12 22:27:33,584 - config - INFO - Starting continuous monitoring mode...
+2025-08-12 22:27:33,584 - config - WARNING - Camera not initialized, attempting to reinitialize...
+2025-08-12 22:27:34,803 - video_capture - INFO - Camera initialized successfully - 720p at 30 FPS
+2025-08-12 22:28:17,583 - config - INFO - Received signal 2, shutting down...
+2025-08-12 22:28:17,583 - config - INFO - Shutting down Smart Glasses Demo System...
+2025-08-12 22:28:17,586 - video_capture - INFO - Camera resources released
+2025-08-12 22:28:17,586 - config - INFO - System shutdown completed
+2025-08-12 22:28:17,698 - config - INFO - Shutting down Smart Glasses Demo System...
+2025-08-12 22:28:17,698 - video_capture - INFO - Camera resources released
+2025-08-12 22:28:17,698 - config - INFO - System shutdown completed
+2025-08-12 22:30:14,527 - config - INFO - Initializing Smart Glasses Demo System...
+2025-08-12 22:30:14,528 - config - INFO - Configuration validated successfully
+2025-08-12 22:30:14,528 - config - INFO - Video capture handler initialized
+2025-08-12 22:30:14,675 - cv_analyzer - WARNING - Custom model not found at models/oil_leak_detector.pt, using YOLOv8 base model
+2025-08-12 22:30:14,719 - cv_analyzer - INFO - Setting up custom hazard detection rules
+2025-08-12 22:30:14,898 - cv_analyzer - INFO - Model loaded successfully on cuda
+2025-08-12 22:30:14,898 - config - INFO - Computer vision analyzer initialized
+2025-08-12 22:30:14,898 - config - INFO - Telegram handler initialized
+2025-08-12 22:30:14,899 - config - INFO - Web API server started on 0.0.0.0:8000
+2025-08-12 22:30:14,928 - web_api - INFO - Smart Glasses Demo API started successfully
+2025-08-12 22:30:16,901 - config - INFO - Starting continuous monitoring mode...
+2025-08-12 22:30:16,901 - config - WARNING - Camera not initialized, attempting to reinitialize...
+2025-08-12 22:30:18,119 - video_capture - INFO - Camera initialized successfully - 720p at 30 FPS
+2025-08-12 22:32:19,902 - config - INFO - Received signal 2, shutting down...
+2025-08-12 22:32:19,902 - config - INFO - Shutting down Smart Glasses Demo System...
+2025-08-12 22:32:19,904 - video_capture - INFO - Camera resources released
+2025-08-12 22:32:19,904 - config - INFO - System shutdown completed
+2025-08-12 22:32:20,006 - config - INFO - Shutting down Smart Glasses Demo System...
+2025-08-12 22:32:20,006 - video_capture - INFO - Camera resources released
+2025-08-12 22:32:20,006 - config - INFO - System shutdown completed
+2025-08-12 22:33:56,726 - config - INFO - Initializing Smart Glasses Demo System...
+2025-08-12 22:33:56,726 - config - INFO - Configuration validated successfully
+2025-08-12 22:33:56,726 - config - INFO - Video capture handler initialized
+2025-08-12 22:33:56,921 - cv_analyzer - WARNING - Custom model not found at models/oil_leak_detector.pt, using YOLOv8 base model
+2025-08-12 22:33:56,958 - cv_analyzer - INFO - Setting up custom hazard detection rules
+2025-08-12 22:33:57,122 - cv_analyzer - INFO - Model loaded successfully on cuda
+2025-08-12 22:33:57,123 - config - INFO - Computer vision analyzer initialized
+2025-08-12 22:33:57,123 - config - INFO - Telegram handler initialized
+2025-08-12 22:33:57,123 - config - INFO - Web API server started on 0.0.0.0:8000
+2025-08-12 22:33:57,149 - web_api - INFO - Smart Glasses Demo API started successfully
+2025-08-12 22:33:59,253 - config - INFO - Starting continuous monitoring mode...
+2025-08-12 22:33:59,253 - config - WARNING - Camera not initialized, attempting to reinitialize...
+2025-08-12 22:34:00,474 - video_capture - INFO - Camera initialized successfully - 720p at 30 FPS
+2025-08-12 22:34:01,088 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/getMe "HTTP/1.1 200 OK"
+2025-08-12 22:34:01,088 - telegram_handler - INFO - Telegram bot initialized successfully: @My_smartglasses_bot
+2025-08-12 22:34:01,089 - telegram_handler - ERROR - Error running bot: Cannot close a running event loop
+2025-08-12 22:34:01,091 - config - INFO - Telegram bot started successfully
+2025-08-12 22:35:59,079 - config - INFO - Shutting down Smart Glasses Demo System...
+2025-08-12 22:35:59,081 - video_capture - INFO - Camera resources released
+2025-08-12 22:35:59,081 - config - INFO - System shutdown completed
+2025-08-12 22:37:27,405 - config - INFO - Initializing Smart Glasses Demo System...
+2025-08-12 22:37:27,406 - config - INFO - Configuration validated successfully
+2025-08-12 22:37:27,406 - config - INFO - Video capture handler initialized
+2025-08-12 22:37:27,545 - cv_analyzer - WARNING - Custom model not found at models/oil_leak_detector.pt, using YOLOv8 base model
+2025-08-12 22:37:27,588 - cv_analyzer - INFO - Setting up custom hazard detection rules
+2025-08-12 22:37:27,767 - cv_analyzer - INFO - Model loaded successfully on cuda
+2025-08-12 22:37:27,768 - config - INFO - Computer vision analyzer initialized
+2025-08-12 22:37:27,768 - config - INFO - Telegram handler initialized
+2025-08-12 22:37:27,769 - config - INFO - Web API server started on 0.0.0.0:8000
+2025-08-12 22:37:27,803 - web_api - INFO - Smart Glasses Demo API started successfully
+2025-08-12 22:37:29,912 - config - INFO - Starting continuous monitoring mode...
+2025-08-12 22:37:29,913 - config - WARNING - Camera not initialized, attempting to reinitialize...
+2025-08-12 22:37:31,131 - video_capture - INFO - Camera initialized successfully - 720p at 30 FPS
+2025-08-12 22:37:31,734 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/getMe "HTTP/1.1 200 OK"
+2025-08-12 22:37:31,735 - telegram_handler - INFO - Telegram bot initialized successfully: @My_smartglasses_bot
+2025-08-12 22:37:31,736 - telegram_handler - ERROR - Error running bot: Cannot close a running event loop
+2025-08-12 22:37:31,737 - config - INFO - Telegram bot started successfully
+2025-08-12 22:38:37,670 - config - INFO - Shutting down Smart Glasses Demo System...
+2025-08-12 22:38:37,672 - video_capture - INFO - Camera resources released
+2025-08-12 22:38:37,672 - config - INFO - System shutdown completed
+2025-08-12 22:38:37,742 - video_capture - INFO - Camera resources released
+2025-08-12 22:42:45,247 - config - INFO - Initializing Smart Glasses Demo System...
+2025-08-12 22:42:45,247 - config - INFO - Configuration validated successfully
+2025-08-12 22:42:45,247 - config - INFO - Video capture handler initialized
+2025-08-12 22:42:45,387 - cv_analyzer - WARNING - Custom model not found at models/oil_leak_detector.pt, using YOLOv8 base model
+2025-08-12 22:42:45,427 - cv_analyzer - INFO - Setting up custom hazard detection rules
+2025-08-12 22:42:45,605 - cv_analyzer - INFO - Model loaded successfully on cuda
+2025-08-12 22:42:45,605 - config - INFO - Computer vision analyzer initialized
+2025-08-12 22:42:45,606 - config - INFO - Telegram handler initialized
+2025-08-12 22:42:45,606 - config - INFO - Web API server started on 0.0.0.0:8000
+2025-08-12 22:42:45,634 - web_api - INFO - Smart Glasses Demo API started successfully
+2025-08-12 22:42:47,717 - config - INFO - Starting continuous monitoring mode...
+2025-08-12 22:42:47,718 - config - WARNING - Camera not initialized, attempting to reinitialize...
+2025-08-12 22:42:48,939 - video_capture - INFO - Camera initialized successfully - 720p at 30 FPS
+2025-08-12 22:42:49,557 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/getMe "HTTP/1.1 200 OK"
+2025-08-12 22:42:49,558 - telegram_handler - INFO - Telegram bot initialized successfully: @My_smartglasses_bot
+2025-08-12 22:42:50,344 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/getMe "HTTP/1.1 200 OK"
+2025-08-12 22:42:50,344 - telegram.ext.Application - INFO - Application started
+2025-08-12 22:42:50,581 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/deleteWebhook "HTTP/1.1 200 OK"
+2025-08-12 22:42:51,227 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/getUpdates "HTTP/1.1 200 OK"
+2025-08-12 22:42:51,764 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/sendMessage "HTTP/1.1 200 OK"
+2025-08-12 22:42:52,155 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/sendMessage "HTTP/1.1 200 OK"
+2025-08-12 22:42:52,529 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/sendMessage "HTTP/1.1 200 OK"
+2025-08-12 22:42:52,937 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/sendMessage "HTTP/1.1 200 OK"
+2025-08-12 22:42:52,938 - config - INFO - Recording video - Duration: 30s
+2025-08-12 22:42:52,941 - video_capture - INFO - Starting video recording for 30 seconds...
+2025-08-12 22:43:01,513 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/getUpdates "HTTP/1.1 200 OK"
+2025-08-12 22:43:11,777 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/getUpdates "HTTP/1.1 200 OK"
+2025-08-12 22:43:14,749 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/getUpdates "HTTP/1.1 200 OK"
+2025-08-12 22:43:19,636 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/getUpdates "HTTP/1.1 200 OK"
+2025-08-12 22:43:22,942 - video_capture - INFO - Video recording completed: 308 frames, saved to videos/video_20250812_224252.mp4
+2025-08-12 22:43:22,942 - config - INFO - Video recorded successfully: videos/video_20250812_224252.mp4
+2025-08-12 22:43:22,943 - config - INFO - Analyzing video: videos/video_20250812_224252.mp4
+2025-08-12 22:43:22,946 - cv_analyzer - INFO - Starting video analysis: 308 frames at 30 FPS
+2025-08-12 22:43:26,127 - cv_analyzer - INFO - Analysis progress: 32.5%
+2025-08-12 22:43:27,548 - cv_analyzer - INFO - Analysis progress: 64.9%
+2025-08-12 22:43:28,981 - cv_analyzer - INFO - Analysis progress: 97.4%
+2025-08-12 22:43:29,080 - cv_analyzer - INFO - Video analysis completed in 6.14 seconds
+2025-08-12 22:43:29,081 - config - INFO - Analysis completed: 180 detections found
+2025-08-12 22:43:29,081 - config - ERROR - Error in async analysis: no running event loop
+2025-08-12 22:43:29,853 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/getUpdates "HTTP/1.1 200 OK"
+2025-08-12 22:43:30,957 - telegram_handler - ERROR - Failed to send video: Timed out
+2025-08-12 22:43:31,724 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/sendMessage "HTTP/1.1 200 OK"
+2025-08-12 22:43:32,129 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/sendMessage "HTTP/1.1 200 OK"
+2025-08-12 22:43:32,566 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/sendMessage "HTTP/1.1 200 OK"
+2025-08-12 22:43:32,567 - config - INFO - Recording video - Duration: 30s
+2025-08-12 22:43:32,567 - video_capture - INFO - Starting video recording for 30 seconds...
+2025-08-12 22:43:40,042 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/getUpdates "HTTP/1.1 200 OK"
+2025-08-12 22:43:50,230 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/getUpdates "HTTP/1.1 200 OK"
+2025-08-12 22:43:55,681 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/getUpdates "HTTP/1.1 200 OK"
+2025-08-12 22:44:01,899 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/getUpdates "HTTP/1.1 200 OK"
+2025-08-12 22:44:02,625 - video_capture - INFO - Video recording completed: 308 frames, saved to videos/video_20250812_224332.mp4
+2025-08-12 22:44:02,625 - config - INFO - Video recorded successfully: videos/video_20250812_224332.mp4
+2025-08-12 22:44:02,626 - config - INFO - Analyzing video: videos/video_20250812_224332.mp4
+2025-08-12 22:44:02,628 - cv_analyzer - INFO - Starting video analysis: 308 frames at 30 FPS
+2025-08-12 22:44:04,270 - cv_analyzer - INFO - Analysis progress: 32.5%
+2025-08-12 22:44:05,917 - cv_analyzer - INFO - Analysis progress: 64.9%
+2025-08-12 22:44:07,573 - cv_analyzer - INFO - Analysis progress: 97.4%
+2025-08-12 22:44:07,683 - cv_analyzer - INFO - Video analysis completed in 5.06 seconds
+2025-08-12 22:44:07,683 - config - INFO - Analysis completed: 196 detections found
+2025-08-12 22:44:07,683 - config - ERROR - Error in async analysis: no running event loop
+2025-08-12 22:44:09,399 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/sendVideo "HTTP/1.1 200 OK"
+2025-08-12 22:44:09,400 - telegram_handler - INFO - Video sent successfully: videos/video_20250812_224332.mp4
+2025-08-12 22:44:10,273 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/sendMessage "HTTP/1.1 200 OK"
+2025-08-12 22:44:10,709 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/sendMessage "HTTP/1.1 200 OK"
+2025-08-12 22:44:10,710 - config - INFO - Analyzing video: videos/video_20250812_224332.mp4
+2025-08-12 22:44:10,715 - cv_analyzer - INFO - Starting video analysis: 308 frames at 30 FPS
+2025-08-12 22:44:12,095 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/getUpdates "HTTP/1.1 200 OK"
+2025-08-12 22:44:12,819 - cv_analyzer - INFO - Analysis progress: 32.5%
+2025-08-12 22:44:14,622 - cv_analyzer - INFO - Analysis progress: 64.9%
+2025-08-12 22:44:16,433 - cv_analyzer - INFO - Analysis progress: 97.4%
+2025-08-12 22:44:16,549 - cv_analyzer - INFO - Video analysis completed in 5.84 seconds
+2025-08-12 22:44:16,553 - config - INFO - Analysis completed: 196 detections found
+2025-08-12 22:44:17,519 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/sendMessage "HTTP/1.1 400 Bad Request"
+2025-08-12 22:44:17,520 - telegram_handler - ERROR - Failed to send message: Message is too long
+2025-08-12 22:44:22,369 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/getUpdates "HTTP/1.1 200 OK"
+2025-08-12 22:44:26,548 - telegram_handler - ERROR - Failed to send video: Timed out
+2025-08-12 22:44:27,361 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/sendMessage "HTTP/1.1 200 OK"
+2025-08-12 22:44:27,753 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/sendMessage "HTTP/1.1 200 OK"
+2025-08-12 22:44:27,754 - config - INFO - Recording video - Duration: 30s
+2025-08-12 22:44:27,755 - video_capture - INFO - Starting video recording for 30 seconds...
+2025-08-12 22:44:29,587 - config - INFO - Received signal 2, shutting down...
+2025-08-12 22:44:29,588 - config - INFO - Shutting down Smart Glasses Demo System...
+2025-08-12 22:44:29,590 - video_capture - INFO - Camera resources released
+2025-08-12 22:44:29,590 - config - INFO - System shutdown completed
+2025-08-12 22:44:29,591 - config - INFO - Shutting down Smart Glasses Demo System...
+2025-08-12 22:44:29,591 - video_capture - INFO - Camera resources released
+2025-08-12 22:44:29,591 - config - INFO - System shutdown completed
+2025-08-12 22:44:29,601 - video_capture - INFO - Video recording completed: 22 frames, saved to videos/video_20250812_224427.mp4
+2025-08-12 22:44:29,601 - config - INFO - Video recorded successfully: videos/video_20250812_224427.mp4
+2025-08-12 22:44:29,602 - config - INFO - Analyzing video: videos/video_20250812_224427.mp4
+2025-08-12 22:44:29,604 - cv_analyzer - INFO - Starting video analysis: 22 frames at 30 FPS
+2025-08-12 22:44:30,057 - cv_analyzer - INFO - Video analysis completed in 0.46 seconds
+2025-08-12 22:44:30,058 - config - INFO - Analysis completed: 14 detections found
+2025-08-12 22:44:30,058 - config - ERROR - Error in async analysis: no running event loop
+2025-08-12 22:44:30,206 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/getUpdates "HTTP/1.1 200 OK"
+2025-08-12 22:44:30,207 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2025-08-12 22:44:30,207 - telegram.ext.Application - CRITICAL - Fetching updates was aborted due to CancelledError(). Suppressing exception to ensure graceful shutdown.
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 641, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 1949, in _run_once
+    event_list = self._selector.select(timeout)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/selectors.py", line 468, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/main.py", line 253, in _signal_handler
+    sys.exit(0)
+SystemExit: 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aadhi/smart-glasses-demo/telegram_handler.py", line 278, in run_bot
+    await self._stop_event.wait()
+  File "/usr/lib/python3.12/asyncio/locks.py", line 212, in wait
+    await fut
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/ext/_application.py", line 673, in stop
+    self.__update_fetcher_task.result()
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/ext/_application.py", line 1228, in _update_fetcher
+    await self.__update_fetcher()
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/ext/_application.py", line 1224, in __update_fetcher
+    await self.__process_update_wrapper(update)
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/ext/_application.py", line 1239, in __process_update_wrapper
+    await self._update_processor.process_update(update, self.process_update(update))
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/ext/_baseupdateprocessor.py", line 170, in process_update
+    await self.do_process_update(update, coroutine)
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/ext/_baseupdateprocessor.py", line 195, in do_process_update
+    await coroutine
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/ext/_application.py", line 1311, in process_update
+    await coroutine
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/ext/_handlers/basehandler.py", line 158, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/telegram_handler.py", line 73, in record_command
+    video_path = await asyncio.get_event_loop().run_in_executor(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+2025-08-12 22:44:30,211 - telegram.ext.Application - INFO - Application.stop() complete
+2025-08-12 22:44:30,212 - telegram_handler - INFO - Telegram bot stopped
+2025-08-12 22:44:30,316 - video_capture - INFO - Camera resources released
+2025-08-12 22:54:34,934 - config - INFO - Initializing Smart Glasses Demo System...
+2025-08-12 22:54:34,935 - config - INFO - Configuration validated successfully
+2025-08-12 22:54:34,935 - config - INFO - Video capture handler initialized
+2025-08-12 22:54:35,080 - cv_analyzer - WARNING - Custom model not found at models/oil_leak_detector.pt, using YOLOv8 base model
+2025-08-12 22:54:35,198 - cv_analyzer - INFO - Setting up custom hazard detection rules
+2025-08-12 22:54:35,370 - cv_analyzer - INFO - Model loaded successfully on cuda
+2025-08-12 22:54:35,370 - config - INFO - Computer vision analyzer initialized
+2025-08-12 22:54:35,370 - config - INFO - Telegram handler initialized
+2025-08-12 22:54:35,371 - config - INFO - Web API server started on 0.0.0.0:8000
+2025-08-12 22:54:35,398 - web_api - INFO - Smart Glasses Demo API started successfully
+2025-08-12 22:54:37,480 - config - INFO - Starting continuous monitoring mode...
+2025-08-12 22:54:37,480 - config - WARNING - Camera not initialized, attempting to reinitialize...
+2025-08-12 22:54:38,702 - video_capture - INFO - Camera initialized successfully - 720p at 30 FPS
+2025-08-12 22:54:40,007 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/getMe "HTTP/1.1 200 OK"
+2025-08-12 22:54:40,008 - telegram_handler - INFO - Telegram bot initialized successfully: @My_smartglasses_bot
+2025-08-12 22:54:40,620 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/getMe "HTTP/1.1 200 OK"
+2025-08-12 22:54:40,620 - telegram.ext.Application - INFO - Application started
+2025-08-12 22:54:40,874 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/deleteWebhook "HTTP/1.1 200 OK"
+2025-08-12 22:54:51,623 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/getUpdates "HTTP/1.1 200 OK"
+2025-08-12 22:54:57,370 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/getUpdates "HTTP/1.1 200 OK"
+2025-08-12 22:54:58,234 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/sendMessage "HTTP/1.1 200 OK"
+2025-08-12 22:55:01,306 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/getUpdates "HTTP/1.1 200 OK"
+2025-08-12 22:55:01,681 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/sendMessage "HTTP/1.1 200 OK"
+2025-08-12 22:55:01,682 - config - INFO - Recording video - Duration: 30s
+2025-08-12 22:55:01,685 - video_capture - INFO - Starting video recording for 30 seconds...
+2025-08-12 22:55:11,512 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/getUpdates "HTTP/1.1 200 OK"
+2025-08-12 22:55:17,284 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/getUpdates "HTTP/1.1 200 OK"
+2025-08-12 22:55:27,509 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/getUpdates "HTTP/1.1 200 OK"
+2025-08-12 22:55:31,713 - video_capture - INFO - Video recording completed: 308 frames, saved to videos/video_20250812_225501.mp4
+2025-08-12 22:55:31,713 - config - INFO - Video recorded successfully: videos/video_20250812_225501.mp4
+2025-08-12 22:55:31,714 - config - INFO - Analyzing video: videos/video_20250812_225501.mp4
+2025-08-12 22:55:31,714 - config - INFO - Analyzing video: videos/video_20250812_225501.mp4
+2025-08-12 22:55:31,716 - cv_analyzer - INFO - Starting video analysis: 308 frames at 30 FPS
+2025-08-12 22:55:31,717 - cv_analyzer - INFO - Starting video analysis: 308 frames at 30 FPS
+2025-08-12 22:55:35,536 - cv_analyzer - INFO - Analysis progress: 32.5%
+2025-08-12 22:55:35,616 - cv_analyzer - INFO - Analysis progress: 32.5%
+2025-08-12 22:55:37,490 - cv_analyzer - INFO - Analysis progress: 64.9%
+2025-08-12 22:55:37,579 - cv_analyzer - INFO - Analysis progress: 64.9%
+2025-08-12 22:55:37,723 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/getUpdates "HTTP/1.1 200 OK"
+2025-08-12 22:55:39,533 - cv_analyzer - INFO - Analysis progress: 97.4%
+2025-08-12 22:55:39,616 - cv_analyzer - INFO - Analysis progress: 97.4%
+2025-08-12 22:55:39,666 - cv_analyzer - INFO - Video analysis completed in 7.95 seconds
+2025-08-12 22:55:39,666 - config - INFO - Analysis completed: 352 detections found
+2025-08-12 22:55:39,761 - cv_analyzer - INFO - Video analysis completed in 8.05 seconds
+2025-08-12 22:55:39,761 - config - INFO - Analysis completed: 352 detections found
+2025-08-12 22:55:39,761 - config - ERROR - Error in async analysis: no running event loop
+2025-08-12 22:55:47,929 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/getUpdates "HTTP/1.1 200 OK"
+2025-08-12 22:55:51,890 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/getUpdates "HTTP/1.1 200 OK"
+2025-08-12 22:55:52,102 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/sendVideo "HTTP/1.1 200 OK"
+2025-08-12 22:55:52,102 - telegram_handler - INFO - Video sent successfully: processed/processed_video_20250812_225501.mp4
+2025-08-12 22:55:52,511 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/sendMessage "HTTP/1.1 200 OK"
+2025-08-12 22:55:53,390 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/sendMessage "HTTP/1.1 200 OK"
+2025-08-12 22:55:53,392 - config - INFO - Analyzing video: videos/video_20250812_225501.mp4
+2025-08-12 22:55:53,397 - cv_analyzer - INFO - Starting video analysis: 308 frames at 30 FPS
+2025-08-12 22:55:54,882 - cv_analyzer - INFO - Analysis progress: 32.5%
+2025-08-12 22:55:56,350 - cv_analyzer - INFO - Analysis progress: 64.9%
+2025-08-12 22:55:57,887 - cv_analyzer - INFO - Analysis progress: 97.4%
+2025-08-12 22:55:57,995 - cv_analyzer - INFO - Video analysis completed in 4.60 seconds
+2025-08-12 22:55:57,995 - config - INFO - Analysis completed: 352 detections found
+2025-08-12 22:56:02,098 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/getUpdates "HTTP/1.1 200 OK"
+2025-08-12 22:56:05,788 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/sendVideo "HTTP/1.1 200 OK"
+2025-08-12 22:56:05,789 - telegram_handler - INFO - Video sent successfully: processed/processed_video_20250812_225501.mp4
+2025-08-12 22:56:06,171 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/sendMessage "HTTP/1.1 200 OK"
+2025-08-12 22:56:06,172 - video_capture - INFO - Recording stop requested
+2025-08-12 22:56:06,992 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/sendMessage "HTTP/1.1 200 OK"
+2025-08-12 22:56:12,338 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/getUpdates "HTTP/1.1 200 OK"
+2025-08-12 22:56:18,749 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/getUpdates "HTTP/1.1 200 OK"
+2025-08-12 22:56:18,751 - video_capture - INFO - Recording stop requested
+2025-08-12 22:56:19,539 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/sendMessage "HTTP/1.1 200 OK"
+2025-08-12 22:56:28,988 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/getUpdates "HTTP/1.1 200 OK"
+2025-08-12 22:56:36,663 - config - INFO - Received signal 2, shutting down...
+2025-08-12 22:56:36,664 - config - INFO - Shutting down Smart Glasses Demo System...
+2025-08-12 22:56:36,665 - video_capture - INFO - Camera resources released
+2025-08-12 22:56:36,665 - config - INFO - System shutdown completed
+2025-08-12 22:56:36,667 - config - INFO - Shutting down Smart Glasses Demo System...
+2025-08-12 22:56:36,667 - video_capture - INFO - Camera resources released
+2025-08-12 22:56:36,667 - config - INFO - System shutdown completed
+2025-08-12 22:56:37,500 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8391766352:AAHjFeihC3hjOj1TZ5eSVtN6NYnwQjPJzv0/getUpdates "HTTP/1.1 200 OK"
+2025-08-12 22:56:37,501 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2025-08-12 22:56:37,501 - telegram.ext.Application - CRITICAL - Fetching updates was aborted due to CancelledError(). Suppressing exception to ensure graceful shutdown.
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/asyncio/runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 674, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 641, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.12/asyncio/base_events.py", line 1949, in _run_once
+    event_list = self._selector.select(timeout)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/selectors.py", line 468, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/aadhi/smart-glasses-demo/main.py", line 254, in _signal_handler
+    sys.exit(0)
+SystemExit: 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aadhi/smart-glasses-demo/telegram_handler.py", line 319, in run_bot
+    await self._stop_event.wait()
+  File "/usr/lib/python3.12/asyncio/locks.py", line 212, in wait
+    await fut
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/ext/_application.py", line 673, in stop
+    self.__update_fetcher_task.result()
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/ext/_application.py", line 1228, in _update_fetcher
+    await self.__update_fetcher()
+  File "/home/aadhi/smart-glasses-demo/venv/lib/python3.12/site-packages/telegram/ext/_application.py", line 1207, in __update_fetcher
+    update = await self.update_queue.get()
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/asyncio/queues.py", line 158, in get
+    await getter
+asyncio.exceptions.CancelledError
+2025-08-12 22:56:37,506 - telegram.ext.Application - INFO - Application.stop() complete
+2025-08-12 22:56:37,507 - telegram_handler - INFO - Telegram bot stopped
+2025-08-12 22:56:37,609 - video_capture - INFO - Camera resources released
