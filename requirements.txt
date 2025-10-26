@@ -1,0 +1,17 @@
+opencv-python
+numpy
+requests
+python-telegram-bot
+ultralytics
+torch
+torchvision
+Pillow
+python-dotenv
+fastapi
+uvicorn
+pydantic
+aiofiles
+websockets
+schedule
+PyYAML
+psutil
